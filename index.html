@@ -1,0 +1,241 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Web Design</title>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO DA PÁGINA -->
+    <header>
+
+        <!-- Título principal -->
+        <h1>Mídias em HTML</h1>
+
+        <!-- Pequena descrição -->
+        <p>Atividade prática de HTML5</p>
+
+    </header>
+
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- INTRODUÇÃO -->
+
+        <!-- Parágrafo utilizando um ID único -->
+        <p id="introducao">
+            Esta página foi desenvolvida para demonstrar diferentes
+            recursos disponíveis no HTML5, como imagens, vídeos, áudios,
+            formulários, links, listas e tabelas.
+        </p>
+
+
+        <!-- PARÁGRAFOS COM CLASS -->
+
+        <p class="destaque">
+            O HTML é responsável por estruturar o conteúdo de uma página web.
+        </p>
+
+        <p class="destaque">
+            As mídias permitem tornar as páginas mais completas e interativas.
+        </p>
+
+
+        <!-- IMAGENS -->
+
+        <!-- Primeira imagem -->
+        <img
+            src="Imagens/hollow-knight.png"
+            alt="Primeira imagem"
+            width="200"
+            height="150"
+        >
+
+        <!-- Segunda imagem -->
+        <img
+            src="Imagens/Minecraft_Bedrock_icon.webp"
+            alt="Segunda imagem"
+            width="200"
+            height="150"
+        >
+
+        <!-- Terceira imagem -->
+        <img
+            src="Imagens/Outer-Wilds.jpg"
+            alt="Terceira imagem"
+        >
+
+
+        <!-- VÍDEO -->
+        <video
+            src="Video/Rick_Astley-Never_Gonna_Give_You_Up.mp4"
+            controls>
+        </video>
+
+
+        <!-- ÁUDIO -->
+        <audio controls>
+            <source src="Audio/AudioCleaner_Download_Rick_Astley_-_Never_Gonna_Give_You_Up_(Official_Video)_(4K_Remaster)_480p.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <!-- FORMULÁRIO -->
+        <form>
+
+            <!-- Campo Nome -->
+            <label for="nome">Nome:</label>
+
+            <input
+                type="text"
+                id="nome"
+                name="nome"
+                required
+            >
+
+            <!-- Campo E-mail -->
+            <label for="email">E-mail:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+            <!-- Campo Mensagem -->
+            <label for="mensagem">Mensagem:</label>
+
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+            ></textarea>
+
+            <!-- Botão de envio -->
+            <input
+                type="submit"
+                value="Enviar">
+
+        </form>
+
+
+        <!-- LINKS -->
+        <p>
+            <a href="https://www.google.com">
+                Acessar o Google
+            </a>
+        </p>
+
+        <p>
+
+            <a href="https://www.google.com">
+                <img
+                    src="Imagens/Google.webp"
+                    alt="Imagem do Google"
+                    width="150">
+            </a>
+        </p>
+
+        <p>
+            <a
+                href="https://www.google.com"
+                target="_blank">
+                Abrir Google em nova aba
+            </a>
+        </p>
+
+
+        <!-- LISTAS -->
+
+        <!-- Lista ordenada -->
+        <ol>
+            <li>Objeto 1</li>
+            <li>Objeto 2</li>
+            <li>Objeto 3</li>
+        </ol>
+
+        <!-- Lista não ordenada -->
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+
+
+        <!-- TABELA -->
+        <table>
+
+            <!-- Cabeçalho da tabela -->
+            <thead>
+
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Curso</th>
+                </tr>
+
+            </thead>
+
+
+            <!-- Corpo da tabela -->
+            <tbody>
+
+                <tr>
+                    <td>João</td>
+                    <td>18</td>
+                    <td>Engenharia</td>
+                </tr>
+
+                <tr>
+                    <td>Maria</td>
+                    <td>19</td>
+                    <td>Computação</td>
+                </tr>
+
+                <tr>
+                    <td>Alex</td>
+                    <td>21</td>
+                    <td>Biologia</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+
+        <!-- DIV COMO CONTÊINER -->
+        <div class="caixa-explicativa">
+
+            <p>
+                HTML5 é utilizado para estruturar páginas e aplicações
+                web utilizando diferentes elementos e recursos.
+            </p>
+
+            <p>
+                Entre esses recursos estão imagens, vídeos, áudios,
+                formulários, links, listas e tabelas.
+            </p>
+
+        </div>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            Atividade de Mídias em HTML - Web Design
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
